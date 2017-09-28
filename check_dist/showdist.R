@@ -1,0 +1,6 @@
+variance <- function(x) var(x) * (length(x) - 1) / length(x)
+dat <- data.matrix(read.table("./result_c.dat"))
+print(sprintf("mean = %f", mean(dat)))
+print(sprintf("var = %f", variance(dat)))
+library(MASS)
+truehist(dat)
