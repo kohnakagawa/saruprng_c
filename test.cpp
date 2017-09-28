@@ -1,4 +1,4 @@
-#include "Saru.h"
+#include "saruprng.hpp"
 #include <iostream>
 #include <fstream>
 

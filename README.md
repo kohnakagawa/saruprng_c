@@ -4,7 +4,7 @@ C language implementation of Saru PRNG (Pseudo Random Number Generator).
 
 ## How to use
 
-- compare C++ version (Saru.h) with C version (saruprng.h).
+- compare C++ version (saruprng.hpp) with C version (saruprng.h).
 
 ``` bash
 $ make test
